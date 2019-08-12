@@ -1,5 +1,5 @@
 {
-  "name": "hooper",
+  "name": "@iflashka/hooper",
   "version": "0.3.3",
   "description": "A customizable accessible carousel slider optimized for Vue",
   "module": "dist/hooper.esm.js",
@@ -57,10 +57,7 @@
   "license": "MIT",
   "keywords": [],
   "maintainers": [
-    {
-      "name": "Abdelrahman3D",
-      "email": "abdelrahman3d@gmail.com"
-    }
+    "Abdelrahman3D <abdelrahman3d@gmail.com>"
   ],
   "lint-staged": {
     "*.{js,vue}": [
@@ -69,5 +66,18 @@
       "jest --maxWorkers=1 --bail --findRelatedTests"
     ]
   },
-  "dependencies": {}
+  "dependencies": {},
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iFlashka/hooper.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/iFlashka/hooper/issues"
+  },
+  "homepage": "https://github.com/iFlashka/hooper#readme"
 }
